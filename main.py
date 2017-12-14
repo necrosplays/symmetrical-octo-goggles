@@ -25,7 +25,7 @@ c = 1
 print(a + b + c)
 
 def isChristmasDay():
-	return datetime.date.month == 12 and datetime.date.day == 20
+	return datetime.date.month == 12 and datetime.date.day == 25
 
 if isChristmasDay():
 	print("YES")
